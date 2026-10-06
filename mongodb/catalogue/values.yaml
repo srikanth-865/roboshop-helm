@@ -1,0 +1,7 @@
+deployment:
+ replicas: 1
+ imageversion: v1
+hpa:
+ averageUtilization: 55
+configmap:
+  mongodbUrl: "mongodb://mongodb:27017/catalogue"
