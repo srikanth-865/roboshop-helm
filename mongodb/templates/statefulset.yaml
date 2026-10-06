@@ -10,7 +10,7 @@ spec:
       component: mongodb
       tier: db                # has to match .spec.template.metadata.labels
   serviceName: "mongodb-headless"
-  replicas: {{ .Values.StatefulSet.replicas }}
+  replicas: {{ .Values.statefulSet.replicas }}
   template:
     metadata:
       labels:
