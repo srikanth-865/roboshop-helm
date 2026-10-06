@@ -1,0 +1,3 @@
+statefulset:
+ replicas: 1
+ imageversion: mongodb:v1
