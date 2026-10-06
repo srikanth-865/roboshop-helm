@@ -1,6 +1,0 @@
-apiVersion: v2
-name: catalogue #chart-name
-description:  Helm chart for a Kubernetes catalogue application
-type: application
-version: 0.0.1  #This is Helm Chart version
-appVersion: v1  #this is our mongodb application version only for reference
